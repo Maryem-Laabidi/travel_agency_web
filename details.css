@@ -1,0 +1,393 @@
+/*General*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    overflow: hidden
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+    
+}
+/*header */
+header
+{
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+   
+
+}
+h1
+{
+    font-family: "Crete Round";
+    font-size: 22px;
+    color: #444;
+    padding-top:10px;
+
+}
+h4
+{
+    font-size: 24px;
+    color: #444;
+    
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+.orange
+{
+    color: #ff7a00;
+}
+header h1
+{
+    float: left;
+}
+header nav
+{
+    float:right;
+    margin-top: 15px;
+}
+header nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 0;
+    font-size: 11px;
+}
+header nav ul li a
+{
+    font-weight: bold;
+}
+.clear
+{
+    clear: both;
+}
+
+/*main-img*/
+#main_dest
+{
+    height: 450px;
+    width: 100%;
+}
+#main_dest h2
+{
+    font-family: "Crete Round";
+    color:#444;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+}
+#main_dest p 
+{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Crete Round";
+    text-align: center;
+
+}
+
+/*detphotos*/
+
+#detphotos
+{
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+#detphotos img
+{
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+#detp1 {
+    float: left;
+    width: 69.5%;
+  }
+  
+  #detp1 img {
+    width: 100%;
+    height: 520px;
+  }
+  
+  #det23 {
+    float: right;
+    width: 29%;
+  }
+  
+  #det23 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #det23 li {
+    margin-bottom: 15px;
+  }
+  
+  #det23 img {
+    width: 100%;
+    height: 250px;
+  }
+/* conteneur*/
+#lf{float: left; width: 63%;}
+#rt
+{float: right;
+     width: 29%;
+     border:1px solid #cecbcb;
+     border-radius: 10px;
+     padding: 2%;
+     margin-top: 19%;
+     margin-left: 2%;
+}
+/* left part*/
+
+#lf ul li 
+{display: inline;
+margin-right: 0.5%;
+padding: 0.5%;
+border-radius: 3px;
+font-family: "Crete Round";
+}
+.pink{background-color: rgba(247, 10, 81, 0.5); color: rgb(134, 2, 46);}
+.blue{background-color: rgba(40, 191, 250, 0.5); color: rgb(7, 22, 241);}
+
+#lf h1{font-size: 50px; margin: 2%;}
+/*partie2*/
+#part2 ul {border-bottom:1px solid #cecbcb;padding-bottom: 1%;margin-bottom: 3%;} 
+#part2 #change{margin: 4%;}
+#change h5{font-family: "Crete Round";color: #444;margin-bottom: 2%;font-size: 15px;}
+#change p{color: #444;margin-left:2%;}
+
+.active-link{color: #ff7a00; padding-bottom: 1%;border-bottom:1px solid #ff7a00;}
+.hidden {
+        display: none;
+      }
+.active {
+        display: block;
+      }
+
+
+      .arrow {
+        display: inline-block;
+        transition: transform 0.3s ease;
+      }
+      
+      .rotated {
+        transform: rotate(90deg);
+      }
+      #fleche .titre h2.t1.active-toggle ,.arrow.active-toggle{
+        color:#ff7a00;
+      }
+      #fleche .titre {cursor: pointer;;}
+
+
+
+
+
+
+
+
+
+
+#hotel img {width:60px; height:60px}
+#hotel ul {display: flex;
+    gap: 20px;}
+#hotel li{text-align: center;}
+#hotel h5,#hotel h2{color: #444;font-family: "Crete Round";margin-bottom: 2%;}
+#hotel{margin: 2%;}
+.hotelbutton 
+{padding: 1%;margin: 3%;border: none;color: #fff;
+background-color: #ff7a00;border-radius: 3px; }
+
+#fleche h2{font-family: "Crete Round";color: #444;}
+#fleche .titre{padding: 3% 0;}
+.titre h2{display: inline-block;}
+.titre .t1{width: 90%;}
+#fleche p{padding-bottom: 2%;}
+#f1,#f2,#f3,#f4{border-bottom:1px solid #cecbcb}
+
+/* Right */
+#prix,#dates,#guest{margin-bottom: 20px;}
+#prix h2,#prix p,#prix form{display: inline;}
+#prix button
+{   padding: 3%;border: none;color: #fff;margin:0 0 0 100px ;
+    background-color: #ff7a00;border-radius: 3px;
+}
+
+
+#prix h2{color: #444;}
+#dates {display: flex; gap: 60px;}
+#dates form ,#guest form
+{display: flex;
+    flex-direction: column; 
+    gap: 7px; }
+
+#rt label,#extra p,#book h5:first-child{color: #444;font-family: "Crete Round";font-weight:bold ; font-size: 15px;}
+
+
+#rt input{padding: 4%;}
+#rt select{padding: 2%;}
+#totale{color: #ff7a00;font-weight: bold;font-family: "Crete Round";font-size: 30px;}
+/*Extra*/
+#extra {color: #444;}  
+input[type="checkbox"] {
+    margin-right: 10px; 
+  }
+  #extra p{margin-bottom: 10px;}
+/*total*/
+#total li {
+    display: flex;     
+    justify-content: space-between; /* Push <p> left, <h5> right */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 8px; 
+  }
+#total {margin-top: 20px;}
+#total ul
+{
+    background-color: #cecbcb;
+    padding: 5%;margin-top: 10px;
+    border-radius: 10px;
+}
+/*Book*/
+#book {margin:20px 0 20px 0 ;}
+#book h5{display: inline-block;}
+#book h5:first-child{width: 87%;}
+#book button 
+{padding: 3%;border: none;color: #fff;width: 100%;margin: 15px 0 5px 0;
+    background-color: #ff7a00;border-radius: 3px}
+#book p{font-size: 13px;text-align: center;}
+  
+
+
+/*know texte */
+#know {margin-top: 20px;}
+#texte p
+{
+    font-size: 13px;
+}
+
+#texte h4 
+{
+    font-size: 45px;
+    font-family: "Crete Round";
+}
+
+
+#k2{float: left; width: 40%;}
+#texte{float: right;width: 50%;text-align: center;margin: 9% 0 0 10%;}
+
+/*offer*/
+.newbutton
+{
+    color: #fff;
+    background-color:  #007fff;
+    padding: 6px 20px;
+    border-radius: 7px;
+    margin-left: 15px;
+    border-style: none;
+}
+.newbutton:hover{background-color:rgb(12, 12, 92) ;}
+.offer 
+{ 
+position: relative;    
+background-image: url("image/back6.avif") ;
+background-repeat: no-repeat;
+background-size: 1400px 500px;
+background-position: center;
+ height : 90px;
+ margin: 5% 5% 10% 10% ;
+padding: 5%;
+border-radius: 10px;
+width: 70%;
+}
+#par1 { float: left; }
+#par1 h2
+{
+    color: #fff;
+    font-family: "Crete Round";
+    font-size: 45px;
+    padding-bottom: 0px;
+}
+#par2 
+{ float: right;
+position: absolute;
+margin:2% 0 0 48%; }
+#par2 input[type="text"] 
+{   padding: 7px;
+    margin-right:20%;
+    height: 40px ;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+#par2 .newbutton { 
+  position: absolute; 
+  right: 4%;
+  top: 20%;
+}
+/* final*/
+
+.final ul {
+    display: flex;         /* Makes the list horizontal */
+    justify-content: space-between; /* Distributes space evenly */
+    padding: 10px;        
+   
+  }
+  
+  .final li {
+    flex: 1;              /* Makes all items equal width */
+    margin: 0 50px 20px 0;       /* Adds spacing between items */
+    min-width: 200px;     /* Prevents items from getting too narrow */
+  }
+.final h1 {padding-bottom: 20px; font-size: 25px;}
+.final a {display: block; padding-bottom:15px ; font-weight: bold;font-size:13px ;}
+.final a:hover{color: #ff7a00;}
+.final p { padding-bottom:25px}
+
+/*footer*/
+footer
+{
+    
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+#Copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+

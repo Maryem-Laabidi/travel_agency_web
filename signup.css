@@ -1,0 +1,242 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+    
+}
+/*header */
+header
+{
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    background-color:#fff;
+}
+h1
+{
+    font-family: "Crete Round";
+    font-size: 22px;
+    color: #444;
+    padding-top:10px;
+
+}
+h4
+{
+    font-size: 24px;
+    color: #444;
+    
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+.orange
+{
+    color: #ff7a00;
+}
+header h1
+{
+    float: left;
+}
+header nav
+{
+    float:right;
+    margin-top: 15px;
+}
+header nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 0;
+    font-size: 11px;
+}
+header nav ul li a
+{
+    font-weight: bold;
+}
+.clear
+{
+    clear: both;
+}
+
+/*main-img*/
+#main_log
+{
+    height: 490px;
+    background:url("image/try3.jpg") no-repeat ;
+}
+#main_log h2
+{
+    font-family: "Crete Round";
+    color:#444;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+}
+#main_log p 
+{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Crete Round";
+    text-align: center;
+
+}
+
+/*Data*/
+#data form > * {
+    display: block; /* Make everything block by default */
+    margin-bottom: 10px;
+}
+
+/* Make radio buttons and their labels display inline */
+#data form input[type="radio"],
+#data form label[for="f"],
+#data form label[for="m"] {
+    display: inline;
+    margin-bottom: 0;
+}
+
+/* Optional: Add some spacing between radio options */
+#data form input[type="radio"] {
+    margin-right: 5px;
+}
+
+#data form label[for="f"],
+#data form label[for="m"] {
+    margin-right: 15px;
+}
+#data input{ border-radius: 10px;background-color: #e7e5e5;padding: 1.5%;}
+#data label {color: #444;font-family: "Crete Round";}
+#data form input[type="email"],#data form input[type="password"],#data form input[type="text"],#data form input[type="date"]
+{width: 40%;}
+#data h1{color: #ff7a00;margin-bottom: 3%;}
+
+#data input[type="submit"] { background-color: #ff7a00; height: 35px; width: 44%; color: #444;padding: 1%;
+margin-top: 2%; }
+
+#data {
+    border: 1px solid #777;
+    width: 35%;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5% auto;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Adds floating effect */
+    position: relative; /* Ensures shadow works properly */
+    z-index: 10; /* Makes sure it appears above other content */
+}
+
+
+/*offer*/
+.newbutton
+{
+    color: #fff;
+    background-color:  #007fff;
+    padding: 6px 20px;
+    border-radius: 7px;
+    margin-left: 15px;
+    border-style: none;
+}
+.newbutton:hover{background-color:rgb(12, 12, 92) ;}
+.offer 
+{ 
+position: relative;    
+background-image: url("image/back6.avif") ;
+background-repeat: no-repeat;
+background-size: 1400px 500px;
+background-position: center;
+ height : 90px;
+ margin: 5% 5% 10% 10% ;
+padding: 5%;
+border-radius: 90px;
+width: 73%;
+}
+#par1 { float: left; }
+#par1 h2
+{
+    color: #fff;
+    font-size: 45px;
+    font-family: "Crete Round";
+    padding-bottom: 0;
+}
+#par2 
+{ float: right;
+position: absolute;
+margin:2% 0 0 48%; }
+#par2 input[type="text"] 
+{   padding: 7px;
+    margin-right:20%;
+    height: 40px ;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+#par2 .newbutton { 
+  position: absolute; 
+  right: 4%;
+  top: 20%;
+}
+
+/*footer*/
+footer
+{
+    
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+#Copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+/* final*/
+.final ul {
+    display: flex;         /* Makes the list horizontal */
+    justify-content: space-between; /* Distributes space evenly */
+    padding: 10px;        
+   
+  }
+  
+  .final li {
+    flex: 1;              /* Makes all items equal width */
+    margin: 0 50px 20px 0;       /* Adds spacing between items */
+    min-width: 200px;     /* Prevents items from getting too narrow */
+  }
+.final h1 {padding-bottom: 20px; font-size: 25px;}
+.final a {display: block; padding-bottom:15px ; font-weight: bold;font-size:13px ;}
+.final a:hover{color: #ff7a00;}
+.final p { padding-bottom:25px}

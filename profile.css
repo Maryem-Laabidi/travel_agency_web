@@ -1,0 +1,75 @@
+/* Profile Dropdown Container */
+.profile-dropdown {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    position: absolute; /* Changed from fixed to absolute */
+    top: 80px; /* Position below header (adjust based on header height) */
+    right: 20px;
+    z-index: 99; /* Below header but above content */
+    display: none; /* Hidden by default */
+    animation: fadeIn 0.3s ease; /* Optional: smooth appear animation */
+}
+
+/* Profile info layout */
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Text info section */
+.info-section {
+    flex: 1;
+}
+.info-section p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.info-section strong {
+    color: #333;
+}
+
+/* Logout button */
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Animation for dropdown */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Header adjustment (important!) */
+header {
+    position: static !important; /* Reset positioning */
+    z-index: 100;
+}
+
+/* Make sure dropdown stays on top of content */
+#main-img {
+    position: relative;
+    z-index: 1;
+}

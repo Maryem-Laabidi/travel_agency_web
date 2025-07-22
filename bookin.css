@@ -1,0 +1,487 @@
+/*General*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+    
+}
+/* Header */
+header {
+  height: 120px;
+}
+
+h1 {
+  font-family: "Crete Round";
+  font-size: 45px;
+  color: #444;
+}
+
+h4 {
+  font-size: 24px;
+  color: #444;
+}
+
+p {
+  line-height: 20px;
+  color: #777;
+}
+
+.orange {
+  color: #ff7a00;
+}
+
+header h1 {
+  float: left;
+  margin-top: 32px;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+/* Updated navigation styles for perfect alignment */
+header nav ul {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  height: 100%;
+}
+
+header nav ul li a {
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Specific style for the image li to match others */
+header nav ul li#l4 a {
+  padding: 0;
+}
+
+header nav ul li#l4 img {
+  vertical-align: middle;
+}
+
+.clear {
+  clear: both;
+}
+
+/*texte*/
+#texte 
+{
+    padding: 10%;
+    background-image: url("image/m1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 1650px 1101px;
+    background-position: center;
+
+}
+#t1{ float: left ;width: 44%;}
+#t1 p:first-child{color: #ff7a00; font-weight: bold;}
+#t1 h1{font-size: 60px; padding-bottom: 15px;}
+#t2 img
+{ float: right;
+    width: 55%;
+    height: 45%;
+}
+
+/*book*/
+#book 
+{margin: 15% auto;
+background-color:rgba(41, 137, 182, 0.6);
+border-radius: 50px;
+}
+#dest,#dur,#trav,#pr2{background-color: #fff; width: 50px; height: 100px;}
+
+/*Categories*/
+
+#cat {
+    text-align: center;
+  }
+  
+  #cat p {
+    color: #ff7a00;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #cat h1 {
+    font-size: 45px;
+    font-family: "Crete Round", serif;
+    color: #333;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  #cat ul {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    padding: 40px 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #cat li {
+    width: 210px;
+    padding: 10px;
+    border: 2px solid #ff7a00; 
+    border-radius: 10px; 
+    transition: all 0.3s ease;
+  }
+  
+  #cat li:hover {
+    transform: scale(1.05); 
+    background-color: #ff7a00; 
+    box-shadow: 0 5px 15px rgba(255, 122, 0, 0.1);
+  }
+  
+  #cat img {
+    margin-bottom: 20px;
+  }
+  
+  #cat h4 {
+    font-family: "Crete Round", serif;
+    color: #333;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+  }
+  
+  #cat li p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+/*aj1*/
+#aj1 {
+    padding: 30px 0; 
+    background-color: #ff7a00;
+    transition: all 0.2s ease; 
+    margin: 20px auto;
+    margin-bottom: 10%;
+    width: 1000px; 
+    border-radius: 8px ;
+    border: 2px solid #777;
+  }
+  
+  #aj1:hover {
+    transform: scale(1.01); 
+    box-shadow: 0 5px 15px rgba(255, 122, 0, 0.2);
+  }
+  
+  #aj1 .wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  #fun1 {
+    flex: 0 0 25%; 
+    padding-right: 5px;
+  }
+  
+  #fun1 img {
+    width: 400px;
+    height: 200px;
+  }
+  
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  #fun2 ul {
+    display: flex;
+    gap: 10px; 
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #fun2 li {
+    flex: 1;
+    max-width: 100px; 
+  }
+  
+  #fun2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #words p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  #words h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  #aj1:hover  {
+    transform: scale(1.03);
+    background-color:  #007fff;
+  }
+  
+  #fun2 li:hover {
+    transform: scale(1.05) !important;
+    border-radius: 5px;
+  }
+/*footer*/
+footer
+{
+    
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+#Copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+/* final*/
+.final ul {
+    display: flex;         /* Makes the list horizontal */
+    justify-content: space-between; /* Distributes space evenly */
+    padding: 10px;        
+   
+  }
+  
+  .final li {
+    flex: 1;              /* Makes all items equal width */
+    margin: 0 50px 20px 0;       /* Adds spacing between items */
+    min-width: 200px;     /* Prevents items from getting too narrow */
+  }
+.final h1 {padding-bottom: 20px; font-size: 25px;}
+.final a {display: block; padding-bottom:15px ; font-weight: bold;font-size:13px ;}
+.final a:hover{color: #ff7a00;}
+.final p { padding-bottom:25px}
+
+/* Booking Table Styles */
+.booking-table {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1200px;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+}
+
+.booking-table h2 {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.booking-table h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #ff7a00;
+}
+
+.booking-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.booking-table th {
+  background-color: #ff7a00;
+  color: white;
+  font-family: "Crete Round", serif;
+  font-weight: normal;
+  padding: 15px 20px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+
+.booking-table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.booking-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.booking-table td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+
+.booking-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.booking-table tr:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+/* Specific Column Styling */
+.booking-table td:nth-child(1) { /* Destination */
+  font-weight: 600;
+  color: #333;
+}
+
+.booking-table td:nth-child(2) { /* Duration */
+  text-align: center;
+  color: #555;
+  font-weight: 500;
+}
+
+.booking-table td:nth-child(3) { /* Total Price */
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, 
+.delete-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+
+/* No Trips Message */
+.no-trips {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #777;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.no-trips a {
+  color: #ff7a00;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border-bottom: 1px dashed #ff7a00;
+}
+
+.no-trips a:hover {
+  color: #e56a00;
+  border-bottom: 1px solid #e56a00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .booking-table {
+    width: 95%;
+    padding: 15px;
+  }
+  
+  .booking-table th, 
+  .booking-table td {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .edit-btn, 
+  .delete-btn {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,364 @@
+/*General*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+    
+}
+/*header */
+header
+{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color:#fff;
+}
+h1
+{
+    font-family: "Crete Round";
+    font-size: 22px;
+    color: #444;
+    padding-top:10px;
+
+}
+h4
+{
+    font-size: 24px;
+    color: #444;
+    
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+.orange
+{
+    color: #ff7a00;
+}
+header h1
+{
+    float: left;
+    margin-top: 10px;
+}
+header nav
+{
+    float:right;
+    margin-top: 0px;
+}
+/* Updated navigation styles for perfect alignment */
+header nav ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    height: 100%;
+    font-size: 12px;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* Specific style for the image li to match others */
+header nav ul li#l4 a {
+    padding: 0;
+}
+
+header nav ul li#l4 img {
+    vertical-align: middle;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
+/*main-img*/
+#main_dest
+{
+    height: 390px;
+    background:url("image/try3.jpg") no-repeat ;
+}
+#main_dest h2
+{
+    font-family: "Crete Round";
+    color:#444;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+}
+#main_dest p 
+{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Crete Round";
+    text-align: center;
+
+}
+
+/*photos */
+#partie1 ul 
+{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+#partie1 ul li , #partie3 ul li
+{
+    width: 320px;
+    display: inline-block;
+    height: 320px;
+    margin:0 0 20px 20px;
+    border-radius: 10px;
+}
+#partie1 ul #ph1
+{
+    background: url("image/ph1.png") no-repeat center;
+}
+#partie1 ul #ph2
+{
+    background: url("image/ph2.png") no-repeat center;
+}
+#partie1 ul #ph3
+{
+    background: url("image/ph3.png") no-repeat center;
+}
+.photos ul li:hover {
+    transform: scale(1.02); /* Slight zoom */
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); /* Glow effect */
+    transition: all 0.3s ease; /* Smooth animation */
+
+}
+.photos h5
+{   padding: 10px 0 0 10px;
+    font-size: 20px;
+}
+.photos p
+{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+/*partie2*/
+
+#partie2 ul {
+    display: flex;          /* Enable flexbox */
+    flex-wrap: nowrap;      /* Prevent wrapping */
+    gap: 20px;             /* Consistent spacing */
+    margin-left: 57px;
+    margin-top: 30px;
+}
+
+#partie2 ul li {
+    height: 320px;
+    border-radius: 10px;
+    margin-right:12px;
+    
+}
+
+#partie2 ul #ph4 {
+    width: 665px;
+    flex-shrink: 0;        /* Prevent width reduction */
+}
+
+#partie2 ul #ph5 {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.button-2
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 7px;
+    margin-left: 15px;
+    border-style: none;
+}
+.button-2:hover{background-color: #007fff;}
+#partie2 ul #ph4
+{
+    background: url("image/ph4.png") no-repeat center;
+    width: 665px;
+}
+#partie2 ul #ph5
+{
+    background-color: rgb(182, 173, 173);
+}
+#partie2 ul #ph5 p {padding-top: 100px;}
+#partie2 ul #ph5 h5 
+{ padding-bottom: 20px;
+    color: #fff;
+}
+
+/*partie 3*/
+#partie3 ul
+{
+    margin: 30px 0 0 40px;
+}
+#partie3 ul #ph6{background: url("image/ph6.png") no-repeat center;}
+#partie3 ul #ph7{background: url("image/ph7.png") no-repeat center;}
+#partie3 ul #ph8{background: url("image/ph8.png") no-repeat center;}
+
+
+/*know texte */
+.know1 #texte p
+{
+    font-size: 13px;
+}
+#texte .orange 
+{
+    margin:7% 0 2% 45%;
+}
+#texte #l1
+{
+    margin: 0 0 0 33%;
+}
+#texte #l2 {margin: 0 0 1% 45%; }
+#texte h4 
+{
+    font-size: 45px;
+    font-family: "Crete Round";
+}
+#texte #parag { margin: 0 0 0 20%;}
+#texte #parag2 { margin: 0 0 6% 32%;}
+
+/* k2 et k3*/
+#k2 { float: left; width: 40%; }
+#k3 { float: right; width: 55%; }
+#k3 ul { padding: 0; margin: 7% 0 0 7%; }
+#k3 li 
+{display: inline-block; width: 45%; 
+ margin: 0 4% 4% 0;}
+#k3 li h4 {float: none;}
+#k3 li img { width: 40px; height: 40px; }
+
+/*offre */
+
+.newbutton
+{
+    color: #fff;
+    background-color:  #007fff;
+    padding: 6px 20px;
+    border-radius: 7px;
+    margin-left: 15px;
+    border-style: none;
+}
+.newbutton:hover{background-color:rgb(12, 12, 92) ;}
+.offer 
+{ 
+position: relative;    
+background-image: url("image/back6.avif") ;
+background-repeat: no-repeat;
+background-size: 1400px 500px;
+background-position: center;
+ height : 90px;
+ margin: 5% 5% 10% 10% ;
+padding: 5%;
+border-radius: 10px;
+width: 70%;
+
+}
+#par1 { float: left; }
+#par1 h2
+{
+    color: #fff;
+    font-family: "Crete Round";
+    font-size: 45px;
+    padding-bottom: 0px;
+}
+#par2 
+{ float: right;
+position: absolute;
+margin:2% 0 0 48%; }
+#par2 input[type="text"] 
+{   padding: 7px;
+    margin-right:20%;
+    height: 40px ;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+#par2 .newbutton { 
+  position: absolute; 
+  right: 4%;
+  top: 20%;
+}
+
+/*final*/
+.final{margin-top: 70px;}
+.final ul {
+    display: flex;        
+    justify-content: space-between; 
+    padding: 10px;        
+   
+  }
+  
+  .final li {
+    flex: 1;              /* Makes all items equal width */
+    margin: 0 50px 20px 0;       
+    min-width: 200px;     
+  }
+.final h1 {padding-bottom: 20px; font-size: 25px;}
+.final a {display: block; padding-bottom:15px ; font-weight: bold;font-size:13px ;}
+.final a:hover{color: #ff7a00;}
+.final p { padding-bottom:25px}
+
+
+/*footer*/
+footer
+{
+    
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+#Copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+

@@ -1,0 +1,211 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+    
+}
+/*header */
+header
+{
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    background-color:#fff;
+}
+h1
+{
+    font-family: "Crete Round";
+    font-size: 22px;
+    color: #444;
+    padding-top:10px;
+
+}
+h4
+{
+    font-size: 24px;
+    color: #444;
+    
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+.orange
+{
+    color: #ff7a00;
+}
+header h1
+{
+    float: left;
+}
+header nav
+{
+    float:right;
+    margin-top: 15px;
+}
+header nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 0;
+    font-size: 11px;
+}
+header nav ul li a
+{
+    font-weight: bold;
+}
+.clear
+{
+    clear: both;
+}
+
+/*main-img*/
+#main_log
+{
+    height: 490px;
+    background:url("image/try3.jpg") no-repeat ;
+}
+#main_log h2
+{
+    font-family: "Crete Round";
+    color:#444;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+}
+#main_log p 
+{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Crete Round";
+    text-align: center;
+
+}
+
+/*i1 et i2 */
+.info{margin: 8% 0  ; }
+
+#i1 { float: left; width: 55%; position: relative;}
+#i1 img{border-radius:10px ;}
+#i2{ float: right; width: 40%; margin: 3% 0 0 0; position: absolute; left:54%;}
+#i2 input {height: 20px; width: 500px;padding: 10px; border-radius: 10px;border: none;}
+#i2 h1 ,#i2 p ,#i2 input[type="password"],#i2 input[type="email"]{margin-bottom: 5%;}
+#i2 input[type="password"],#i2 input[type="email"]{ background-color: rgb(211, 204, 204); border: none;}
+#i2 input[type="submit"] { background-color: #ff7a00; height: 35px; width: 520px; color: #444; }
+#i2 p {margin: 3% 0 0 30% ;}
+#i2 a {color: #ff7a00; font-weight: bold; } 
+
+
+/*offer*/
+.newbutton
+{
+    color: #fff;
+    background-color:  #007fff;
+    padding: 6px 20px;
+    border-radius: 7px;
+    margin-left: 15px;
+    border-style: none;
+}
+.newbutton:hover{background-color:rgb(12, 12, 92) ;}
+.offer 
+{ 
+position: relative;    
+background-image: url("image/back6.avif") ;
+background-repeat: no-repeat;
+background-size: 1400px 500px;
+background-position: center;
+ height : 90px;
+ margin: 5% 5% 10% 10% ;
+padding: 5%;
+border-radius: 90px;
+width: 73%;
+}
+#par1 { float: left; }
+#par1 h2
+{
+    color: #fff;
+    font-size: 45px;
+    font-family: "Crete Round";
+    padding-bottom: 0;
+}
+#par2 
+{ float: right;
+position: absolute;
+margin:2% 0 0 48%; }
+#par2 input[type="text"] 
+{   padding: 7px;
+    margin-right:20%;
+    height: 40px ;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+#par2 .newbutton { 
+  position: absolute; 
+  right: 4%;
+  top: 20%;
+}
+
+/*footer*/
+footer
+{
+    
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+#Copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+/* final*/
+.final ul {
+    display: flex;         /* Makes the list horizontal */
+    justify-content: space-between; /* Distributes space evenly */
+    padding: 10px;        
+   
+  }
+  
+  .final li {
+    flex: 1;              /* Makes all items equal width */
+    margin: 0 50px 20px 0;       /* Adds spacing between items */
+    min-width: 200px;     /* Prevents items from getting too narrow */
+  }
+.final h1 {padding-bottom: 20px; font-size: 25px;}
+.final a {display: block; padding-bottom:15px ; font-weight: bold;font-size:13px ;}
+.final a:hover{color: #ff7a00;}
+.final p { padding-bottom:25px}
